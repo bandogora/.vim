@@ -1,4 +1,4 @@
-This repo is our baseline `~/.vim/` directory.  It uses [git submodules][gitsm]
+This repo is a fork of werebus's `~/.vim/` directory.  It uses [git submodules][gitsm]
 and the (Vim 8+) native "pack" system to manage plugins. Many of the
 configurations used in here are inspired by [Janus][janus].
 
