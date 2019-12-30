@@ -6,6 +6,7 @@ set encoding=utf-8
 set number
 set cursorline
 set showmatch
+set mouse=a
 filetype plugin indent on
 syntax on
 
@@ -52,7 +53,7 @@ if has("autocmd")
 endif
 
 " Default color scheme
-color jellybeans+
+color monokai-bold
 
 " Include user's local vimrc file
 if filereadable(expand("~/.vimrc.local"))
