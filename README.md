@@ -12,12 +12,6 @@ Features
 special key.  By default, that's a comma, but you can remap it to
 some other key in `plugin/00-leader.vim`*
 
-*   [Vim-ack][ack]
-
-    Used to search through a project directory.  You can you can use `:Ack`,
-    or, for your convenience, it's mapped to `<Leader>f`.  This plugin requires
-    the ack program.  Install it with homebrew, apt-get, or whatever.
-
 *   [Buffergator][buffg]
 
     Mapped to `<Leader>b`, this plugin gives you a list on the left of all
@@ -77,11 +71,6 @@ Customization
 You can use a `~/.vimrc.local` or `~/.gvimrc.local` file to add customizations
 that are specific to a particular machine.
 
-[path]:       https://github.com/tpope/vim-pathogen
-[gitsm]:      http://book.git-scm.com/5_submodules.html
-[janus]:      https://github.com/carlhuda/janus
-[ack]:        https://github.com/mileszs/ack.vim
-[align]:      http://www.vim.org/scripts/script.php?script_id=294
 [buffg]:      https://github.com/jeetsukumaran/vim-buffergator
 [buff]:       http://vim.wikia.com/wiki/Vim_buffer_FAQ
 [ctrlp]:      https://github.com/kien/ctrlp.vim
@@ -98,5 +87,3 @@ that are specific to a particular machine.
 [ultisnips]:  https://github.com/SirVer/ultisnips
 [snippets]:   https://github.com/honza/vim-snippets
 [zoom]:       http://www.vim.org/scripts/script.php?script_id=508
-[slvf]:       https://github.com/scrooloose/vimfiles
-[spf-13]:     https://github.com/spf13/spf13-vim

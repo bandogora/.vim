@@ -7,6 +7,7 @@ set number
 set cursorline
 set showmatch
 set mouse=a
+set diff
 filetype plugin indent on
 syntax on
 
