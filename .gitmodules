@@ -10,38 +10,6 @@
 	path = pack/languages/start/git
 	url = https://github.com/tpope/vim-git.git
 	ignore = dirty
-[submodule "bundle-colors/getafe"]
-	path = pack/colors/start/getafe
-	url = https://github.com/larssmit/vim-getafe.git
-	ignore = dirty
-[submodule "bundle-colors/github"]
-	path = pack/colors/start/github
-	url = https://github.com/telamon/vim-color-github.git
-	ignore = dirty
-[submodule "bundle-colors/irblack"]
-	path = pack/colors/start/irblack
-	url = https://github.com/wgibbs/vim-irblack.git
-	ignore = dirty
-[submodule "bundle-colors/molokai"]
-	path = pack/colors/start/molokai
-	url = https://github.com/vim-scripts/molokai.git
-	ignore = dirty
-[submodule "bundle-colors/pyte"]
-	path = pack/colors/start/pyte
-	url = https://github.com/vim-scripts/pyte.git
-	ignore = dirty
-[submodule "bundle-colors/solarized"]
-	path = pack/colors/start/solarized
-	url = https://github.com/altercation/vim-colors-solarized.git
-	ignore = dirty
-[submodule "bundle-colors/vividchalk"]
-	path = pack/colors/start/vividchalk
-	url = https://github.com/tpope/vim-vividchalk.git
-	ignore = dirty
-[submodule "bundle-colors/vwilight"]
-	path = pack/colors/start/vwilight
-	url = https://github.com/bry4n/vwilight.vim.git
-	ignore = dirty
 [submodule "bundle-langs/csv"]
 	path = pack/languages/start/csv
 	url = https://github.com/vim-scripts/csv.vim.git
