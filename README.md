@@ -1,32 +1,13 @@
-This repo is a fork of werebus's `~/.vim/` directory.  It uses [git submodules][gitsm]
-and the (Vim 8+) native "pack" system to manage plugins. Many of the
-configurations used in here are inspired by [Janus][janus].
-
-
 Installation
 ============
 ```bash
-$ curl -Lo- https://git.io/vgUw4 | bash
-```
-
-_or_
-
-```bash
-$ wget -O- https://git.io/vgUw4 | bash
-```
-
-_Or_, feel free to clone it yourself
-
-```bash
-$ git clone --recursive https://github.com/umts/vimfiles.git ~/.vim
+$ git clone --recursive https://github.com/jforgue/vimfiles.git ~/.vim
 ```
 
 and then sym-link to or source the `vimrc` and `gvimrc` files as you like.
 
 Features
 ========
-Oh so many plugins, here's a quick, and not quite complete, list.
-
 *Note: below, when we refer to "`<Leader>`", we're referring to the vim
 special key.  By default, that's a comma, but you can remap it to
 some other key in `plugin/00-leader.vim`*
@@ -100,18 +81,6 @@ Customization
 ----------------------
 You can use a `~/.vimrc.local` or `~/.gvimrc.local` file to add customizations
 that are specific to a particular machine.
-
-Credits
-=======
-The majority of the credit here goes to [Janus][janus].  The initial
-inspiration was the old Rakefile-style Janus, but the git submodule
-technique is borrowed from the new Janus.
-
-Scrooloose's [vimfiles][slvf] repo also provided some hints on useful
-plugins.
-
-Steve Francia's [Vim distribution][spf-13] also provided some nice tips
-for the `/.vimrc` file.
 
 [path]:       https://github.com/tpope/vim-pathogen
 [gitsm]:      http://book.git-scm.com/5_submodules.html
