@@ -32,11 +32,6 @@ some other key in `plugin/00-leader.vim`*
 
     Awesome git integration.
 
-*   [Gundo][gundo]
-
-    Mapped to `<Leader>u`, this plugin will show you a nifty graphical
-    representation of your undo tree.
-
 *   [Indent-object][indent]
 
 *   [NERDcommenter][nc]
@@ -91,7 +86,6 @@ that are specific to a particular machine.
 [buff]:       http://vim.wikia.com/wiki/Vim_buffer_FAQ
 [ctrlp]:      https://github.com/kien/ctrlp.vim
 [fugitive]:   https://github.com/tpope/vim-fugitive
-[gundo]:      https://github.com/sjl/gundo.vim
 [indent]:     http://www.vim.org/scripts/script.php?script_id=3037
 [nc]:         https://github.com/scrooloose/nerdcommenter/blob/master/doc/NERD_commenter.txt
 [nt]:         https://github.com/scrooloose/nerdtree
