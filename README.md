@@ -1,7 +1,7 @@
 Installation
 ============
 ```bash
-$ git clone --recursive https://github.com/jforgue/vimfiles.git ~/.vim
+$ git clone --recursive git@github.com:jforgue/.vim.git ~/.vim
 ```
 
 and then sym-link to or source the `vimrc` and `gvimrc` files as you like.
