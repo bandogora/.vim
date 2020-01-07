@@ -1,171 +1,90 @@
-[submodule "bundle-tools/ack"]
-	path = pack/tools/start/ack
-	url = https://github.com/mileszs/ack.vim.git
-	ignore = dirty
-[submodule "bundle-tools/fugitive"]
-	path = pack/tools/start/fugitive
-	url = https://github.com/tpope/vim-fugitive.git
-	ignore = dirty
-[submodule "bundle-langs/git"]
-	path = pack/languages/start/git
-	url = https://github.com/tpope/vim-git.git
-	ignore = dirty
-[submodule "bundle-langs/csv"]
-	path = pack/languages/start/csv
-	url = https://github.com/vim-scripts/csv.vim.git
-	ignore = dirty
-[submodule "bundle-langs/coffee-script"]
-	path = pack/languages/start/coffee-script
+# Languages
+[submodule "pack/languages/start/vim-coffee-script"]
+	path = pack/languages/start/vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git
-	ignore = dirty
-[submodule "bundle-langs/haml"]
-	path = pack/languages/start/haml
+[submodule "pack/languages/start/csv.vim"]
+	path = pack/languages/start/csv.vim
+	url = https://github.com/vim-scripts/csv.vim.git
+[submodule "pack/languages/start/vim-git"]
+	path = pack/languages/start/vim-git
+	url = https://github.com/tpope/vim-git.git
+[submodule "pack/languages/start/vim-haml"]
+	path = pack/languages/start/vim-haml
 	url = https://github.com/tpope/vim-haml.git
-	ignore = dirty
-[submodule "bundle-langs/javascript"]
-	path = pack/languages/start/javascript
+[submodule "pack/languages/start/vim-javascript"]
+	path = pack/languages/start/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
-	ignore = dirty
-[submodule "bundle-langs/markdown"]
-	path = pack/languages/start/markdown
+[submodule "pack/languages/start/vim-markdown"]
+	path = pack/languages/start/vim-markdown
 	url = https://github.com/tpope/vim-markdown.git
-	ignore = dirty
-[submodule "bundle-langs/nodejs"]
-	path = pack/languages/start/nodejs
+[submodule "pack/languages/start/vim-node.js"]
+	path = pack/languages/start/vim-node.js
 	url = https://github.com/mmalecki/vim-node.js.git
-	ignore = dirty
-[submodule "bundle-langs/rails"]
-	path = pack/languages/start/rails
+[submodule "pack/languages/start/vim-rails"]
+	path = pack/languages/start/vim-rails
 	url = https://github.com/tpope/vim-rails.git
-	ignore = dirty
-[submodule "bundle-langs/rspec"]
-	path = pack/languages/start/rspec
+[submodule "pack/languages/start/vim-rspec"]
+	path = pack/languages/start/vim-rspec
 	url = https://github.com/skwp/vim-rspec.git
-	ignore = dirty
-[submodule "bundle-langs/ruby"]
-	path = pack/languages/start/ruby
+[submodule "pack/languages/start/vim-ruby"]
+	path = pack/languages/start/vim-ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
-	ignore = dirty
-[submodule "bundle-langs/scss"]
-	path = pack/languages/start/scss
+[submodule "pack/languages/start/scss-syntax.vim"]
+	path = pack/languages/start/scss-syntax.vim
 	url = https://github.com/cakebaker/scss-syntax.vim.git
-	ignore = dirty
-[submodule "bundle-tools/indent-object"]
-	path = pack/tools/start/indent-object
-	url = https://github.com/michaeljsmith/vim-indent-object.git
-	ignore = dirty
-[submodule "bundle-tools/nerdtree"]
-	path = pack/tools/start/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
-	ignore = dirty
-[submodule "bundle-tools/nerdcommenter"]
-	path = pack/tools/start/nerdcommenter
-	url = https://github.com/scrooloose/nerdcommenter.git
-	ignore = dirty
-[submodule "bundle-tools/surround"]
-	path = pack/tools/start/surround
-	url = https://github.com/tpope/vim-surround.git
-	ignore = dirty
-[submodule "bundle-tools/buffergator"]
-	path = pack/tools/start/buffergator
-	url = https://github.com/jeetsukumaran/vim-buffergator.git
-	ignore = dirty
-[submodule "bundle-tools/supertab"]
-	path = pack/tools/start/supertab
-	url = https://github.com/ervandew/supertab.git
-	ignore = dirty
-[submodule "bundle-tools/zoomwin"]
-	path = pack/tools/start/zoomwin
-	url = https://github.com/vim-scripts/ZoomWin.git
-	ignore = dirty
-[submodule "bundle-tools/endwise"]
-	path = pack/tools/start/endwise
-	url = https://github.com/tpope/vim-endwise.git
-	ignore = dirty
-[submodule "bundle-tools/css-color"]
-	path = pack/tools/start/css-color
-	url = https://github.com/skammer/vim-css-color.git
-	ignore = dirty
-[submodule "bundle-tools/gundo"]
-	path = pack/tools/start/gundo
-	url = https://github.com/sjl/gundo.vim.git
-	ignore = dirty
-[submodule "bundle-tools/rename2"]
-	path = pack/tools/start/rename2
-	url = https://github.com/vim-scripts/Rename2.git
-	ignore = dirty
-[submodule "bundle-tools/csapprox"]
-	path = pack/tools/start/csapprox
-	url = https://github.com/godlygeek/csapprox.git
-	ignore = dirty
-[submodule "bundle-tools/vim-addon-mw-utils"]
-	path = pack/tools/start/vim-addon-mw-utils
-	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
-	ignore = dirty
-[submodule "bundle-tools/tlib"]
-	path = pack/tools/start/tlib
-	url = https://github.com/tomtom/tlib_vim.git
-	ignore = dirty
-[submodule "bundle-tools/tabular"]
-	path = pack/tools/start/tabular
-	url = https://github.com/godlygeek/tabular.git
-	ignore = dirty
-[submodule "bundle-tools/sessionman"]
-	path = pack/tools/start/sessionman
-	url = https://github.com/vim-scripts/sessionman.vim.git
-	ignore = dirty
-[submodule "bundle-tools/ctrlp"]
-	path = pack/tools/start/ctrlp
-	url = https://github.com/ctrlpvim/ctrlp.vim.git
-	ignore = dirty
-[submodule "bundle-colors/Colour-Sampler-Pack"]
-	path = pack/colors/start/Colour-Sampler-Pack
-	url = https://github.com/vim-scripts/Colour-Sampler-Pack.git
-	ignore = dirty
-[submodule "bundle-tools/ultisnips"]
-	path = pack/tools/start/ultisnips
-	url = https://github.com/SirVer/ultisnips.git
-	ignore = dirty
-[submodule "bundle-tools/vim-snippets"]
-	path = pack/tools/start/vim-snippets
-	url = https://github.com/honza/vim-snippets.git
-	ignore = dirty
-[submodule "bundle-langs/chef"]
-	path = pack/languages/start/chef
-	url = https://github.com/t9md/vim-chef.git
-	ignore = dirty
-[submodule "bundle-tools/git-gutter"]
-	path = pack/tools/start/git-gutter
-	url = https://github.com/airblade/vim-gitgutter.git
-	ignore = dirty
-[submodule "bundle-langs/latex"]
-	path = pack/languages/start/latex
-	url = https://github.com/vim-latex/vim-latex.git
-	ignore = dirty
-[submodule "bundle-tools/tagbar"]
-	path = pack/tools/start/tagbar
-	url = https://github.com/majutsushi/tagbar.git
-	ignore = dirty
-[submodule "bundle-langs/typescript"]
-	path = pack/languages/start/typescript
+[submodule "pack/languages/start/typescript-vim"]
+	path = pack/languages/start/typescript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
-	ignore = dirty
-[submodule "bundle-langs/openhab"]
-	path = pack/languages/start/openhab
-	url = https://github.com/cyberkov/openhab-vim.git
-	ignore = dirty
-[submodule "bundle-tools/vim-airline"]
-	path = pack/tools/start/vim-airline
-	url = https://github.com/vim-airline/vim-airline.git
-	ignore = dirty
-[submodule "bundle-tools/vim-airline-themes"]
-	path = pack/tools/start/vim-airline-themes
-	url = https://github.com/vim-airline/vim-airline-themes.git
-	ignore = dirty
-[submodule "pack/tools/start/flog"]
-	path = pack/tools/start/flog
-	url = https://github.com/rbong/vim-flog.git
-	ignore = dirty
+[submodule "pack/languages/start/vim-latex"]
+	path = pack/languages/start/vim-latex
+	url = https://github.com/vim-latex/vim-latex.git
+
+# Tools
 [submodule "pack/tools/start/ale"]
 	path = pack/tools/start/ale
 	url = https://github.com/dense-analysis/ale.git
+[submodule "pack/tools/start/vim-buffergator"]
+	path = pack/tools/start/vim-buffergator
+	url = https://github.com/jeetsukumaran/vim-buffergator.git
+[submodule "pack/tools/start/ctrlp.vim"]
+	path = pack/tools/start/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule "pack/tools/start/vim-endwise"]
+	path = pack/tools/start/vim-endwise
+	url = https://github.com/tpope/vim-endwise.git
+[submodule "pack/tools/start/vim-gitgutter"]
+	path = pack/tools/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "pack/tools/start/nerdcommenter"]
+	path = pack/tools/start/nerdcommenter
+	url = https://github.com/preservim/nerdcommenter.git
+[submodule "pack/tools/start/nerdtree"]
+	path = pack/tools/start/nerdtree
+	url = https://github.com/preservim/nerdtree.git
+[submodule "pack/tools/start/sessionman.vim"]
+	path = pack/tools/start/sessionman.vim
+	url = https://github.com/vim-scripts/sessionman.vim.git
+[submodule "pack/tools/start/supertab"]
+	path = pack/tools/start/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "pack/tools/start/tabular"]
+	path = pack/tools/start/tabular
+	url = https://github.com/godlygeek/tabular.git
+[submodule "pack/tools/start/ultisnips"]
+	path = pack/tools/start/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
+[submodule "pack/tools/start/vim-airline"]
+	path = pack/tools/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "pack/tools/start/vim-airline-themes"]
+	path = pack/tools/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "pack/tools/start/vim-devicons"]
+	path = pack/tools/start/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons.git
+[submodule "pack/tools/start/vim-snippets"]
+	path = pack/tools/start/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
+[submodule "pack/tools/start/ZoomWin"]
+	path = pack/tools/start/ZoomWin
+	url = https://github.com/vim-scripts/ZoomWin.git
