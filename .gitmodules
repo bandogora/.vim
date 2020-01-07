@@ -82,10 +82,6 @@
 	path = pack/tools/start/endwise
 	url = https://github.com/tpope/vim-endwise.git
 	ignore = dirty
-[submodule "bundle-tools/syntastic"]
-	path = pack/tools/start/syntastic
-	url = https://github.com/scrooloose/syntastic.git
-	ignore = dirty
 [submodule "bundle-tools/css-color"]
 	path = pack/tools/start/css-color
 	url = https://github.com/skammer/vim-css-color.git
@@ -170,3 +166,6 @@
 	path = pack/tools/start/flog
 	url = https://github.com/rbong/vim-flog.git
 	ignore = dirty
+[submodule "pack/tools/start/ale"]
+	path = pack/tools/start/ale
+	url = https://github.com/dense-analysis/ale.git
