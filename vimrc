@@ -7,7 +7,6 @@ set number
 set cursorline
 set showmatch
 set mouse=a
-set diff
 filetype plugin indent on
 syntax on
 
@@ -59,4 +58,9 @@ color monokai-bold
 " Include user's local vimrc file
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
+endif
+
+" Load devicons on refresh
+if exists("g:loaded_webdevicons")
+  call webdevicons#refresh()
 endif
