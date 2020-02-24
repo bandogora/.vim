@@ -88,3 +88,6 @@
 [submodule "pack/tools/start/ZoomWin"]
 	path = pack/tools/start/ZoomWin
 	url = https://github.com/vim-scripts/ZoomWin.git
+[submodule "pack/languages/start/vim-cpp-enhanced"]
+	path = pack/languages/start/vim-cpp-enhanced
+	url = https://github.com/octol/vim-cpp-enhanced-highlight.git
