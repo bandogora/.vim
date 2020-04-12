@@ -2,8 +2,7 @@
 ```bash
 $ git clone --recursive git@github.com:jforgue/.vim.git ~/.vim
 ```
-
-and then sym-link to or source the `vimrc` and `gvimrc` files as needed.
+Then sym-link to or source the `vimrc`, `gvimrc`, `bashrc`, and `bash_aliases` files as needed.
 
 # Plugins
 ### Tools
