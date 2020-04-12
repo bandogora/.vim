@@ -10,3 +10,8 @@ fi
 if [ -e $HOME/.bash_aliases ]; then
     source $HOME/.bash_aliases
 fi
+
+# Include user's local bashrc file
+if [ -e $HOME/.bashrc.local ]; then
+  source $HOME/.bashrc.local
+fi
