@@ -1,8 +1,22 @@
 # Installation
+Clone time repo into your home directory
 ```bash
 $ git clone --recursive git@github.com:jforgue/.vim.git ~/.vim
 ```
-Then sym-link to or source the `vimrc`, `gvimrc`, `bashrc`, and `bash_aliases` files as needed.
+If local files already exists:
+```bash
+$ mv ~/.vimrc ~./vimrc.local
+$ mv ~/.gvimrc ~./gvimrc.local
+$ mv ~/.bashrc ~./bashrc.local
+$ mv ~/.bash_aliases ~./bash_aliases.local
+```
+Then sym-link files as needed:
+```bash
+ln ~/.vim/vimrc ~/.vimrc
+ln ~/.vim/gvimrc ~/.gvimrc
+ln ~/.vim/bashrc ~/.bashrc
+ln ~/.vim/bash_aliases ~/.bash_aliases
+```
 
 # Plugins
 ### Tools
