@@ -8,7 +8,7 @@ If local files already exists:
 $ mv ~/.vimrc ~./vimrc.local
 $ mv ~/.gvimrc ~./gvimrc.local
 $ mv ~/.bashrc ~./bashrc.local
-$ mv ~/.bash_aliases ~./bash_aliases.local
+$ mv ~/.bash_aliases ~/.bash_aliases.local
 ```
 Then sym-link files as needed:
 ```bash
