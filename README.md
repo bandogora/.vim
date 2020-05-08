@@ -93,11 +93,4 @@ some other key in `plugin/00-leader.vim`*
 *   [ZoomWin](http://www.vim.org/scripts/script.php?script_id=508)
     
     Zoom in/out of windows (toggle between one window and multi-window)
-    Mapped to `<Leader><Leader>`, 
-
-Customization
-=============
-"Local" Files
-----------------------
-You can use a `~/.vimrc.local` or `~/.gvimrc.local` file to add customizations
-that are specific to a particular machine.
+    Mapped to `<Leader><Leader>`
