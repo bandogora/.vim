@@ -12,10 +12,10 @@ $ mv ~/.bash_aliases ~/.bash_aliases.local
 ```
 Then sym-link files as needed:
 ```bash
-ln ~/.vim/vimrc ~/.vimrc
-ln ~/.vim/gvimrc ~/.gvimrc
-ln ~/.vim/bashrc ~/.bashrc
-ln ~/.vim/bash_aliases ~/.bash_aliases
+ln -s ~/.vim/vimrc ~/.vimrc
+ln -s ~/.vim/gvimrc ~/.gvimrc
+ln -s ~/.vim/bashrc ~/.bashrc
+ln -s ~/.vim/bash_aliases ~/.bash_aliases
 ```
 
 # Plugins
