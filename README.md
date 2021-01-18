@@ -5,9 +5,9 @@ $ git clone --recursive git@github.com:jforgue/.vim.git ~/.vim
 ```
 If local files already exists:
 ```bash
-$ mv ~/.vimrc ~./vimrc.local
-$ mv ~/.gvimrc ~./gvimrc.local
-$ mv ~/.bashrc ~./bashrc.local
+$ mv ~/.vimrc ~/.vimrc.local
+$ mv ~/.gvimrc ~/.gvimrc.local
+$ mv ~/.bashrc ~/.bashrc.local
 $ mv ~/.bash_aliases ~/.bash_aliases.local
 ```
 Then sym-link files as needed:
