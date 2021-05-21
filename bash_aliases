@@ -1,7 +1,6 @@
 # rails stuff
 alias faye='rackup private_pub.ru -s thin -E production'
-alias rs='rails server'
-alias rc='rails console'
+alias pry='pry --simple-prompt 2>/dev/null'
 
 # some nice git aliases
 alias cg='cd `git rev-parse --show-toplevel`'
