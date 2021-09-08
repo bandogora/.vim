@@ -1,7 +1,7 @@
 # Installation
 Clone time repo into your home directory
 ```bash
-$ git clone --recursive git@github.com:jforgue/.vim.git ~/.vim
+$ git clone --recursive https://github.com/bandogora/.vim.git
 ```
 If local files already exists:
 ```bash
