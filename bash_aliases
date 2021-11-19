@@ -6,11 +6,6 @@ alias pry='pry --simple-prompt 2>/dev/null'
 alias cg='cd `git rev-parse --show-toplevel`'
 alias gs='git status'
 
-function gcm() {
-TEXT="$*";
-git commit -m "${TEXT}"
-}
-
 function ga() {
   DIR="$*";
   git add ${DIR}
@@ -23,9 +18,7 @@ function cl() {
     if [ $# -lt 1 ]; then
       DIR=$HOME;
     fi;
-    builtin cd "${DIR}" && \
-      # use your preferred ls command
-      ls -F --color=auto
+    builtin cd "${DIR}" && ls
 }
 
 alias ls=' ls -F --color=auto'

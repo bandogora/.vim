@@ -1,11 +1,11 @@
 # source devicons
-if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
+if [ $VTE_VERSION ] || [ $TILIX_ID ]; then
   source /etc/profile.d/vte.sh
 fi
 
 # source rvm
 if [ -e $HOME/.rvm/scripts/rvm ]; then
-  [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+  source $HOME/.rvm/scripts/rvm
 fi
 
 # source bash_aliases
