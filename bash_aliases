@@ -1,8 +1,9 @@
-# rails stuff
+# Rails aliases -------------
 alias faye='rackup private_pub.ru -s thin -E production'
 alias pry='pry --simple-prompt 2>/dev/null'
+alias rails='bundle exec rails'
 
-# some nice git aliases
+# Git aliases ---------------
 alias cg='cd `git rev-parse --show-toplevel`'
 alias gs='git status'
 
@@ -10,6 +11,9 @@ function ga() {
   DIR="$*";
   git add ${DIR}
 }
+
+# Arch aliases --------------
+alias remove_orphans='sudo pacman -Qtdq | sudo pacman -Rns -'
 
 # cd then ls
 function cl() {
@@ -21,4 +25,5 @@ function cl() {
     builtin cd "${DIR}" && ls
 }
 
-alias ls=' ls -F --color=auto'
+alias ls='ls -F --color=auto'
+alias grep='grep --color=auto'
