@@ -1,14 +1,11 @@
 packloadall
 
-set nocompatible
-set backspace=indent,eol,start
+source $VIMRUNTIME/defaults.vim
+
 set encoding=utf-8
 set number
 set cursorline
 set showmatch
-set mouse=a
-filetype plugin indent on
-syntax on
 
 " Whitespace stuff
 set nowrap
@@ -25,7 +22,6 @@ endif
 
 " Searching
 set hlsearch
-set incsearch
 set ignorecase
 set smartcase
 
@@ -39,21 +35,22 @@ set undodir=~/.vim/undo
 set viminfofile=~/.vim/info
 
 " Tab completion
-set wildmenu
 set wildmode=list:longest,list:full
 set wildignore+=*.o,*.obj,.git,*.rbc,*.class,.svn,test/fixtures/*,vendor/gems/*
 
 " Show linenumbers on printouts; use letter paper (not A4)
 set printoptions=number:y,paper:letter
 
-" Remember last location in file
-if has("autocmd")
-  au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
-    \| exe "normal g'\"" | endif
+if 1
+  " Give prawn files ruby syntax highlighting
+  autocmd BufNewFile,BufRead *.prawn set filetype=ruby
+
+  " Remove all trailing white spaces from a file on write
+  autocmd BufWritePre * :%s/\s\+$//e
 endif
 
 " Default color scheme
-color monokai-bold
+silent! color monokai-bold
 
 " Include user's local vimrc file
 if filereadable(expand("~/.vimrc.local"))
