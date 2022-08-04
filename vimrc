@@ -7,6 +7,9 @@ set number
 set cursorline
 set showmatch
 
+" Synchronize yank and clipboard registers
+set clipboard^=unnamedplus
+
 " Whitespace stuff
 set nowrap
 set tabstop=2

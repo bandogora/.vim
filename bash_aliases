@@ -2,10 +2,15 @@
 alias faye='rackup private_pub.ru -s thin -E production'
 alias pry='pry --simple-prompt 2>/dev/null'
 alias rails='bundle exec rails'
+alias rake='bundle exec rake'
+alias rspec='bundle exec rspec'
 
 # Git aliases ---------------
 alias cg='cd `git rev-parse --show-toplevel`'
 alias gs='git status'
+
+# Middleman aliases ------------
+alias middleman='bundle exec middleman'
 
 function ga() {
   DIR="$*";
@@ -26,4 +31,4 @@ function cl() {
 }
 
 alias ls='ls -F --color=auto'
-alias grep='grep --color=auto'
+alias grep='grep -n --color=auto'
