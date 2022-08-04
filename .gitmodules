@@ -69,9 +69,6 @@
 [submodule "pack/languages/start/vim-markdown"]
 	path = pack/languages/start/vim-markdown
 	url = https://github.com/tpope/vim-markdown.git
-[submodule "pack/languages/start/vim-node.js"]
-	path = pack/languages/start/vim-node.js
-	url = https://github.com/mmalecki/vim-node.js.git
 [submodule "pack/languages/start/vim-rails"]
 	path = pack/languages/start/vim-rails
 	url = https://github.com/tpope/vim-rails.git
