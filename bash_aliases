@@ -1,9 +1,11 @@
 # Rails aliases -------------
-alias faye='rackup private_pub.ru -s thin -E production'
-alias pry='pry --simple-prompt 2>/dev/null'
-alias rails='bundle exec rails'
-alias rake='bundle exec rake'
+alias faye='bin/rackup private_pub.ru -s thin -E production'
+alias parallel_rspec='bin/parallel_rspec'
+alias pry='bundle exec pry --simple-prompt 2>/dev/null'
+alias rails='bin/rails'
+alias rake='bin/rake'
 alias rspec='bundle exec rspec'
+alias spring='bin/spring'
 
 # Git aliases ---------------
 alias cg='cd `git rev-parse --show-toplevel`'
@@ -11,11 +13,6 @@ alias gs='git status'
 
 # Middleman aliases ------------
 alias middleman='bundle exec middleman'
-
-function ga() {
-  DIR="$*";
-  git add ${DIR}
-}
 
 # Arch aliases --------------
 alias remove_orphans='sudo pacman -Qtdq | sudo pacman -Rns -'
@@ -31,4 +28,4 @@ function cl() {
 }
 
 alias ls='ls -F --color=auto'
-alias grep='grep -n --color=auto'
+alias grep='grep -nI --color=auto'
