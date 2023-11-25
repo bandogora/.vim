@@ -2,7 +2,7 @@
 alias faye='bin/rackup private_pub.ru -s thin -E production'
 alias parallel_rspec='bin/parallel_rspec'
 alias pry='bundle exec pry --simple-prompt 2>/dev/null'
-alias rails='bin/rails'
+alias rails='bundle exec rails'
 alias rake='bin/rake'
 alias rspec='bundle exec rspec'
 alias spring='bin/spring'
