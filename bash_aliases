@@ -10,6 +10,7 @@ alias spring='bin/spring'
 # Git aliases ---------------
 alias cg='cd `git rev-parse --show-toplevel`'
 alias gs='git status'
+alias cgs='clear && git status'
 
 # Middleman aliases ------------
 alias middleman='bundle exec middleman'
