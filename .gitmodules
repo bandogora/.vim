@@ -54,9 +54,6 @@
 	path = pack/languages/start/csv.vim
 	url = https://github.com/vim-scripts/csv.vim.git
   ignore = dirty
-[submodule "pack/languages/start/vim-coffee-script"]
-	path = pack/languages/start/vim-coffee-script
-	url = https://github.com/kchmck/vim-coffee-script.git
 [submodule "pack/languages/start/vim-git"]
 	path = pack/languages/start/vim-git
 	url = https://github.com/tpope/vim-git.git
@@ -87,6 +84,6 @@
 [submodule "pack/languages/start/vim-latex"]
 	path = pack/languages/start/vim-latex
 	url = https://github.com/vim-latex/vim-latex.git
-[submodule "pack/languages/start/vim-cpp-enhanced"]
-	path = pack/languages/start/vim-cpp-enhanced
-	url = https://github.com/octol/vim-cpp-enhanced-highlight.git
+[submodule "pack/languages/start/rust.vim"]
+	path = pack/languages/start/rust.vim
+	url = https://github.com/rust-lang/rust.vim
