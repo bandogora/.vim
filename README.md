@@ -11,6 +11,10 @@ sh "$HOME/.vim/setup.sh"
 ```
 This will initialize and clone all submodules, then generate vim helptags.
 
+```sh
+source "$HOME/.bashrc"
+```
+
 # Plugins
 ### Tools
 *Note: below, when we refer to "`<Leader>`", we're referring to the vim
