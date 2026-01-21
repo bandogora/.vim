@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/sh
 
-function die() {
+die() {
   echo "${@}"
   exit 1
 }
@@ -8,7 +8,7 @@ function die() {
 # Add .local to existing Vim and Bash config files in the home directory
 # or add .old if .local files already exist
 for i in $HOME/.vimrc $HOME/.gvimrc $HOME/.bashrc $HOME/.bash_aliases; do
-  if [[ ( -e $i ) ]]; then
+  if [ -e "$i" ]; then
     if [ -e "${i}.local" ]; then
       echo "${i}.local already exists"
       echo "Renaming ${i} to ${i}.old"

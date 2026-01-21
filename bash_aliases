@@ -1,3 +1,4 @@
+# shellcheck disable=SC2148
 # Rails aliases -------------
 alias faye='bin/rackup private_pub.ru -s thin -E production'
 alias parallel_rspec='bin/parallel_rspec'
@@ -20,12 +21,12 @@ alias remove_orphans='sudo pacman -Qtdq | sudo pacman -Rns -'
 
 # cd then ls
 function cl() {
-  DIR="$*";
-    # if no DIR given, go home
-    if [ $# -lt 1 ]; then
-      DIR=$HOME;
-    fi;
-    builtin cd "${DIR}" && ls
+  DIR="$*"
+  # if no DIR given, go home
+  if [ $# -lt 1 ]; then
+    DIR=$HOME
+  fi
+  builtin cd "${DIR}" && ls
 }
 
 alias ls='ls -F --color=auto'
