@@ -2,12 +2,12 @@
 If a `.vim` directory already exists make a backup and/or remove it.
 
 Clone this repo into your home directory
-```bash
-$ git clone https://github.com/bandogora/.vim.git "$HOME/.vim"
+```sh
+git clone https://github.com/bandogora/.vim.git "$HOME/.vim"
 ```
 Run the `setup.sh` script:
-```bash
-$ sh $HOME/.vim/setup
+```sh
+sh "$HOME/.vim/setup.sh"
 ```
 This will initialize and clone all submodules, then generate vim helptags.
 
