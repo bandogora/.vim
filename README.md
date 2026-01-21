@@ -3,7 +3,7 @@ If a `.vim` directory already exists make a backup and/or remove it.
 
 Clone this repo into your home directory
 ```bash
-$ git clone https://github.com/bandogora/.vim.git ~/.vim
+$ git clone https://github.com/bandogora/.vim.git "$HOME/.vim"
 ```
 Run the `setup.sh` script:
 ```bash
