@@ -34,4 +34,6 @@ if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integr
   source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"
 fi
 
-eval "$(direnv hook bash)"
+if command -v direnv; then
+  eval "$(direnv hook bash)"
+fi
