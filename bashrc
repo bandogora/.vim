@@ -20,7 +20,12 @@ fi
 
 # Source rbenv
 if [ -e $HOME/.rbenv/ ]; then
-  eval "$(rbenv init -)"
+  eval "$(rbenv init - --no-rehash bash)"
+fi
+
+# set PATH so it includes user's private ~/.local/bin if it exists
+if [ -d "$HOME/.local/bin" ] ; then
+    PATH="$HOME/.local/bin:$PATH"
 fi
 
 # KITTY_SHELL_INTEGRATION
